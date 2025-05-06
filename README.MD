@@ -46,7 +46,7 @@ Somativo – Projeto **Java Swing**
 
 ```bash
 # 1 – Clone o repositório
-$ git clone https://github.com/SEU‑USUARIO/morse‑visualizer.git
+$ git clone https://github.com/carloshobmeier/morse_code
 $ cd morse‑visualizer
 
 # 2 – Compile (requires JDK 17 +)
