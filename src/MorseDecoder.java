@@ -106,10 +106,12 @@ public class MorseDecoder {
         // Navega à esquerda para '.' (ponto)
         if (sequence.charAt(i) == '.') {
             return morseToChar(node.left, sequence, i + 1);
-        }
+        } else if (sequence.charAt(i) == '-') {
         // Navega à direita para '-' (traço)
-        else {
             return morseToChar(node.right, sequence, i + 1);
+        }
+        else {
+            return '\0';
         }
     }
 
